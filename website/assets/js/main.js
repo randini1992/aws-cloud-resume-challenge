@@ -182,14 +182,16 @@
 			});
 
 })(jQuery);
+https://z4xzrzoz3dlkzgvaugwn5i6kya0orhst.lambda-url.us-east-1.on.aws/
 
 // JavaScript Code
 
-const counter = document.quesrySelecter(".counter-number")
+const counter = document.querySelector(".counter-number");
 async function updateCounter() {
-	let response = await fetch("https://z4xzrzoz3dlkzgvaugwn5i6kya0orhst.lambda-url.us-east-1.on.aws/")
-	let data = response.json();
-	counter.innerHTML = ' Views: ${data}';
+    let response = await fetch(
+        "https://wwjcx7tyxrbjmbkf3vc3teo3mu0qrvhq.lambda-url.ca-central-1.on.aws/"
+    );
+    let data = await response.json();
+    counter.innerHTML = `👀 Views: ${data}`;
 }
-
 updateCounter();
